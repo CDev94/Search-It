@@ -4,6 +4,7 @@ import SearchBar from './components/SearchBar';
 
 class App extends Component  {
     
+    // Collecting input data from SearchBar
     onSearchSubmit(term) {
         console.log(term);
     }
